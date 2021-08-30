@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 26px;
+}
+
+body {
+    max-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+.container {
+    background-image: url('images/bg-desktop.svg');
+    height: 100vh;
+    width: 100vw;
+    background-color: #674bb1;
+    background-size: 100% 100%;
+
+}
+
+.header {
+    height: 18%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    left: 5%;
+    top: 7vh;
+    position: absolute;
+
+}
+
+.logo-container img {
+    height: 10vh;
+    width: 14vw;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 74vh;
+}
+
+.main_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_image img {
+    height: 90%;
+    width: 80%;
+}
+
+.main_text {
+    display: grid;
+    grid-template-rows: 40% 30% 30%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+button {
+    height: 8vh;
+    width: 13vw;
+    border-radius: 6vh;
+    border: none;
+    cursor: pointer;
+    background-color: #e980e7;
+}
+
+button:hover {
+    background-color: white;
+    color: #674bb1;
+}
+
+#cajita {
+    height: 2.4rem;
+    width: 2.4rem;
+    border: 0.1rem solid #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+#cajita i{
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+
+
+#cajita:hover {
+    border: 0.1rem solid violet;
+    cursor: pointer;
+    color: violet;
+}
+
+
+#cajita:hover i {
+    color: violet;
+}
+
+.social_media {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 12vw;
+    margin-left: 85vw;
+    margin-bottom: 3vh;
+}
+
+.paragraph p {
+    width: 90%;
+}
+
+.title h1 {
+    width: 90%;
+}
+
+@media  only screen and (max-width: 2460px) {
+
+    * {
+        font-size: 24px;
+    }
+}
+
+@media  only screen and (max-width: 1800px) {
+
+    * {
+        font-size: 21px;
+    }
+}
+
+@media  only screen and (max-width: 1650px) {
+
+    * {
+        font-size: 18.5px;
+    }
+}
+
+@media  only screen and (max-width: 1400px) {
+
+    * {
+        font-size: 16px;
+    }
+}
+
+@media  only screen and (max-width: 1200px) {
+
+    * {
+        font-size: 14.5px;
+    }
+}
+
+
+@media  only screen and (max-width: 1200px) {
+
+    * {
+        font-size: 12px;
+    }
+}
+
+@media  only screen and (max-width: 1050px) {
+
+    * {
+        font-size: 16px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .main {
+        height: 90vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+    }
+
+    .header {
+        height: 10vh;
+    }
+
+
+    .social_media {
+        height: 20vh;
+    }
+
+    .logo-container {
+        top: 0%;
+       
+        height: 20vh;
+        width: 30vw;
+    }
+
+    .logo-container img {
+        height: 100%;
+        width: 100%;
+        margin-top: -2.5vh;
+    }
+
+    .main_text p, h1, button, .social_media i {
+        margin: auto;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    button {
+        width: 44vw;
+        height: 6vh;
+        font-size: 1.3rem;
+        background: white;
+        color: #674bb1;
+    }
+
+    button:hover {
+        color: #674bb1;
+    }
+
+    .social_media {
+        display: flex;
+        width: 25vw;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #cajita {
+        height: 4vh;
+        width: 4vh;
+    }
+
+    #cajita i {
+        font-size: 1.7rem;
+    }
+
+    .main_image img {
+        height: 80%;
+        width: 75%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 800px){
+    
+    * {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    
+    * {
+        font-size: 9.5px;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    
+    * {
+        font-size: 8px;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px){
+    
+    * {
+        font-size: 6px;
+    }
+
+}
+
